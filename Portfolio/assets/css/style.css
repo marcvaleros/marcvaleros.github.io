@@ -1,6 +1,8 @@
 
 body {
-  background-color: #181717;
+  /* background-color: #150020; */
+  background: rgb(2,0,36);
+  background: linear-gradient(351deg, rgba(2,0,36,1) 0%, rgba(52,3,92,1) 100%);
   color: #07012c;
 }
 
@@ -14,7 +16,8 @@ h6 {
 }
 
 a {
-  color: #1e1e1e;
+  /* color: #1e1e1e; */
+  color: #0078ff;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -488,7 +491,10 @@ a:hover {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  /* background: rgba(0, 0, 0, 0.9); */
+
+  background: rgb(2,0,36);
+  background: linear-gradient(351deg, rgba(2,0,36,1) 0%, rgba(52,3,92,1) 100%);
   padding: 12px 0;
 }
 
