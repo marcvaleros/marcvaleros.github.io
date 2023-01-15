@@ -21,13 +21,11 @@ a {
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
-
 a:hover {
   color: #0078ff;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
-
 .font-cursive{
   font-family: 'Petit Formal Script', cursive;
 }
