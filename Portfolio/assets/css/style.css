@@ -1,8 +1,8 @@
 
 body {
   /* background-color: #150020; */
-  background: rgb(2,0,36);
-  background: linear-gradient(351deg, rgba(2,0,36,1) 0%, rgba(52,3,92,1) 100%);
+  background: rgb(23, 45, 19);
+  /* background: linear-gradient(351deg, rgba(2,0,36,1) 0%, rgb(38, 39, 48) 100%); */
   color: #07012c;
 }
 
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #0078ff;
+  color: #ffffff;
 }
 
 a {
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: rgb(215, 111, 48);
 }
 
 .overlay-mf {
@@ -172,7 +172,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: rgb(215, 111, 48);
   margin: 0 auto;
 }
 .line-mf_a {
@@ -188,6 +188,7 @@ a:hover {
 }
 
 .title-left {
+  color: #6BB77B;
   font-size: 2rem;
   position: relative;
 }
@@ -196,7 +197,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #6BB77B;
   width: 100px;
   bottom: -12px;
 }
@@ -348,7 +349,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #6BB77B;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -362,7 +363,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #298eff;
+  background: rgb(215, 111, 48);
   color: #fff;
 }
 
@@ -494,8 +495,8 @@ a:hover {
 #header.header-scrolled {
   /* background: rgba(0, 0, 0, 0.9); */
 
-  background: rgb(2,0,36);
-  background: linear-gradient(351deg, rgba(2,0,36,1) 0%, rgba(52,3,92,1) 100%);
+  background: rgb(23, 45, 19);
+  /* background: linear-gradient(351deg, rgb(255, 255, 255) 0%, rgba(52,3,92,1) 100%); */
   padding: 12px 0;
 }
 
@@ -557,7 +558,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #fff;
+  background-color: rgb(215, 111, 48);
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -803,7 +804,7 @@ a:hover {
 }
 
 .hero .hero-subtitle {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -1006,17 +1007,17 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #6BB77B;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: rgb(23, 45, 19);
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: rgb(23, 45, 19);
 }
 
 .work-content .w-like .num-like {
@@ -1024,7 +1025,8 @@ a:hover {
 }
 
 .w-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  color: rgb(23, 45, 19);
 }
 
 /*--------------------------------------------------------------
@@ -1494,7 +1496,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: rgb(215, 111, 48);
 }
 
 footer .copyright {
