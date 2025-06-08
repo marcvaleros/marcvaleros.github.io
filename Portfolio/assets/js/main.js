@@ -1,4 +1,3 @@
-
 (function() {
   "use strict";
 
@@ -174,6 +173,17 @@
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
+  });
+
+  // Override: Prevent non-image slides (like iframes/external) from opening in the lightbox
+  portfolioLightbox.on('slide_before_load', ({ slide }) => {
+    if (slide.type !== 'image') {
+      portfolioLightbox.close();
+      // Optionally, open the link in a new tab if available
+      if (slide.node && slide.node.href) {
+        window.open(slide.node.href, '_blank');
+      }
+    }
   });
 
   /**
